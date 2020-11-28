@@ -1,0 +1,97 @@
+*{
+	box-sizing: border-box;
+	font-family: serif;
+	
+	
+}
+body{
+	padding: 50px 30px 50px 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h1{
+	text-align: center;
+	font-size: 175%;
+	color: #6E3F3F;
+	font-weight: bolder;
+}
+
+section{
+	font-size: 125%;
+	width:40%;
+	padding: 10px 20px 20px 20px;
+	position: relative;
+	float: right;
+	border-width: 0px 0px 2px 2px;
+	border-style: solid;
+	border-color: black;
+	margin-right: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.div1,.div2,.div3{
+	border:2px solid black;
+	background-color: #FB9D50;
+}
+
+p{
+	clear: both;
+	position: relative;
+	padding: 20px;
+}
+#sec1{
+	background-color: lightblue;
+}
+#sec2{
+	background-color: red;
+	color: white;
+}
+#sec3{
+	background-color: yellow;
+}
+
+@media (min-width:992px){
+	.div1,.div2,.div3{
+		width: 30%;
+		float: left;
+		margin-top: 50px;
+	}
+
+	
+	.div1,.div2{
+		margin-right:20px; 
+	}
+	.div1{
+		margin-left: 30px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.div1,.div2{
+		width: 49%;
+		position: relative;
+		float: left;
+		margin-bottom: 20px;
+	}
+	.div1{
+		margin-right: 10px;
+	}
+	.div2{
+		float: right;
+	}
+	.div3{
+		margin-top: 30px;
+		clear: both;
+		margin-top: 30px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px){
+	.div1,.div2,.div3{
+		width: 100%;
+		margin-top:30px;
+	}
+}

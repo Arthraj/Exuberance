@@ -1,0 +1,77 @@
+body{
+font-family: Comic Sans MS;
+}
+
+h1{
+
+font-family: Comic Sans MS;
+}
+.nav{
+  background-color: lightgrey;
+}
+#Chicken{
+  border:solid black 2px;
+  width: 90%;
+  height: auto;
+  box-sizing: border-box;
+  padding:20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgray;
+  
+}
+#Beef{
+  border:solid black 2px;
+  width: 90%;
+  height: auto;
+  box-sizing: border-box;
+  padding:20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px; 
+  background-color: lightgray;  
+  
+}
+#Sushi
+{
+    border:solid black 2px;
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding:20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    
+}
+p{
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+}
+h2{
+text-align: center;
+font-family: Comic Sans MS;
+
+
+}
+
+
+
+.navlinks{
+  
+  font-weight: 500 !important;
+  
+  background-color: grey;
+}
+
+
+@media(min-width: 768px){
+  .navlinks{
+    visibility: hidden;
+  }
+  .drop{
+    visibility: hidden;
+  }
+}
