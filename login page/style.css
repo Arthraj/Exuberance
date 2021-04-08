@@ -1,0 +1,99 @@
+*{
+	font-family: 'Comic Sans MS','Sans-serif'
+}
+
+body{
+	background-color: #810000;
+}
+
+.login-div{
+	margin: 50px auto;
+	width:400px;
+	background-color: #d5ecc2;
+	padding: 55px;
+}
+
+.logo{
+	width:150px;
+	height:150px; 
+	border: 2px solid red;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+
+.logo img{
+	height: 100%;
+	width: 100%;
+}
+
+.title,.subtitle{
+	text-align: center;
+	color: #810000
+
+}
+
+.title{
+	font-weight: bolder;
+	font-size: 40px;
+	margin-bottom: 5px;
+}
+
+.subtitle{
+margin-bottom: 15px;
+font-size: 20px;
+}
+
+.form{
+	width: 100%;
+}
+
+.form input{
+	font-size: 18px;
+	padding: 10px 20px 10px 5px;
+	border: none;
+	outline: none;
+	background:none;s
+}
+
+.username,.password{
+	border: 1px solid #000;
+	border-radius: 30px;
+	display: block;
+	padding:9px;
+	margin: 10px 0;
+}
+
+.form svg{
+	height: 25px;
+	margin:0px 5px -5px 10px;
+}
+
+.options{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding:5px 0;
+	margin-bottom: 30px;
+}
+
+button.sign-in{
+	width: 100%;
+	padding: 12px 10px;
+	border: none;
+	font-size: 18px;
+	border-radius: 30px;
+	background-color: #810000;
+	margin-bottom: 5px;
+	color: white;
+}
+
+.sign-up{
+	text-align: center;
+}
+
+.sign-up a{
+	text-decoration: none;
+	color: black;
+}
